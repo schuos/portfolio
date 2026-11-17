@@ -1,0 +1,28 @@
+
+
+body.index{
+    background-color: rgb(230, 218, 194);
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    h1.main-statement {
+        font-size: 32px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p {
+        font-size: 16px;
+        font-style: normal;
+        text-align: center;
+    }
+
+    a {
+        color: rgb(0, 0, 255);
+        text-decoration: none;
+        font-family: arial;
+    }
+}
