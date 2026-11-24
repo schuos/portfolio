@@ -6,23 +6,110 @@ body.index{
     font-size: 16px;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
+   
 
+    img {
+    display: block;
+    margin-top: 20px;}
 
-    h1.main-statement {
+    div {
+    width: auto;
+    padding: 100px;
+    margin: 150px;
+    border: 10px solid rgb(94, 94, 94);
+    outline: 5px dotted black;
+    } 
+
+    h1{
         font-size: 32px;
         text-transform: uppercase;
         font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
     }
 
     p {
         font-size: 16px;
         font-style: normal;
         text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
     }
 
     a {
         color: rgb(0, 0, 255);
         text-decoration: none;
         font-family: arial;
+        text-align: center;
+    }
+
+    a.readings:link, a.readings:visited {
+    background-color: rgb(176, 200, 145);
+    color: black;
+    border: 2px solid rgb(134, 157, 134);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+
+    a.readings:hover, a.readings:active {
+    background-color: green;
+    color: white;
+    }
+
+    
+}
+
+body.readings{
+    background-color: rgb(204, 233, 220);
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+
+    div{
+        width: auto;
+        padding: 100px;
+        margin: 200px;
+        border: 10px solid rgb(94, 94, 94);
+        outline: 5px dotted black;
+    }
+
+
+    h1{
+        font-size: 32px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        text-align: left;
+    }
+
+    h2{
+        font-family: sans-serif, Arial, Helvetica;
+        text-align: center;
+        background-color: rgb(118, 144, 85);
+        color: rgb(255, 255, 255);
+    }
+
+    p {
+        font-size: 12px;
+        font-style: normal;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 2;
+       
+    }
+    a.index:link, a.index:visited {
+        background-color: rgb(202, 197, 154);
+        color: black;
+        border: 2px solid rgb(175, 173, 144);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        }
+
+    a.index:hover, a.index:active {
+    background-color: rgb(121, 118, 87);
+    color: white;
     }
 }
