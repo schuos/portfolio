@@ -2,11 +2,9 @@
 
 body.index{
     background-color: rgb(230, 218, 194);
-    color: black;
+    color: rgb(242, 231, 231);
     font-size: 16px;
     line-height: 1.5;
-    font-family: Arial, Helvetica, sans-serif;
-   
 
     img {
         display: block;
@@ -16,13 +14,15 @@ body.index{
     div {
         width: auto;
         padding: 100px;
-        margin: 150px;
-        border: 10px solid rgb(94, 94, 94);
-        outline: 5px dotted black;
+        margin: 50px;
+        border: 10px solid rgb(0, 0, 0);
+        outline:20px dashed black;
+        background-color: rgb(89, 78, 78);
+        scale:0.6;
     } 
 
     h1{
-        font-size: 32px;
+        font-size: 60px;
         text-transform: uppercase;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 900;
@@ -30,7 +30,7 @@ body.index{
     }
 
     p {
-        font-size: 16px;
+        font-size: 20px;
         font-style: normal;
         text-align: center;
         font-family: Helvetica, Arial, sans-serif;
@@ -64,24 +64,25 @@ body.readings{
     color: black;
     font-size: 16px;
     line-height: 1.5;
-    font-family: Arial, Helvetica, sans-serif;
 
-    div{
+    .readings{
         width: auto;
         padding: 100px;
         margin: 200px;
         border: 10px solid rgb(94, 94, 94);
         outline: 5px dotted black;
+        scale: 0.6;
     }
 
 
     h1{
-        font-size: 32px;
+        font-size: 50px;
         text-transform: uppercase;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 900;
         text-align: left;
         letter-spacing: 10px;
+        font-style: italic;
     }
 
     h2{
@@ -92,10 +93,10 @@ body.readings{
     }
 
     p {
-        font-size: 12px;
+        font-size: 20px;
         font-style: normal;
         text-align: left;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Helvetica, arial, sans-serif;
         line-height: 2;
        
     }
@@ -112,5 +113,37 @@ body.readings{
     a.index:hover, a.index:active {
         background-color: rgb(121, 118, 87);
         color: white;
+    }
+
+    .sontag{
+        margin: 0;
+        outline: none;
+        padding:30px;
+        border:4px dotted black;
+        margin-bottom: 20px;
+    }
+
+    .chatgpt{
+        margin: 0;
+        outline: none;
+        padding:30px;
+        border:4px dotted black;
+        margin-bottom: 20px;
+    }
+
+    .mother{
+        margin: 0;
+        outline: none;
+        padding:30px;
+        border:4px dotted black;
+        margin-bottom: 20px;
+    }
+
+    .war{
+        margin: 0;
+        outline: none;
+        padding:30px;
+        border:4px dotted black;
+        margin-bottom: 20px;
     }
 }
